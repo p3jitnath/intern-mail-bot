@@ -1,0 +1,1 @@
+from .mailing_list import create_mailing_list

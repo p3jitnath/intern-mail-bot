@@ -24,21 +24,29 @@ def extract_home_page(author_id):
 
 def extract_top_publications(author_id):
     author_soup, _ = get_soup_object(AUTHOR_URL.format(author_id))
-    results = []; ctr = 0;
+    results = []; ctr = 0
     for row in author_soup.findAll('tr', {"class": "gsc_a_tr"}):
         if (ctr == LIMIT):
             break
-        publication_name = row.find('a', {"class": "gsc_a_at"}).text
-        publication_soup, _ = get_soup_object(GOOGLE_SCHOLAR_URL + row.find('a', {"class": "gsc_a_at"}).get('data-href'))
-        publication_description = publication_soup.find('div', {"class": "gsh_small"}).text
-        publication_gs_url = publication_soup.find('div', {"class": "gsc_vcd_merged_snippet"}).find('div').find('a').get('href')
-        _ , page = get_soup_object(publication_gs_url)
-        results.append({
-            "name": publication_name, 
-            "url": page.url,
-            "description": publication_description
-        })
-        ctr += 1
+        try:
+            publication_name = row.find('a', {"class": "gsc_a_at"}).text
+            publication_soup, _ = get_soup_object(GOOGLE_SCHOLAR_URL + row.find('a', {"class": "gsc_a_at"}).get('data-href'))        
+            publication_description = publication_soup.find('div', {"class": "gsh_small"}).text
+
+            if len(publication_description) < 50:
+                raise Exception
+            
+            publication_gs_url = publication_soup.find('div', {"class": "gsc_vcd_merged_snippet"}).find('div').find('a').get('href')
+            _ , page = get_soup_object(publication_gs_url)
+            results.append({
+                "name": publication_name, 
+                "url": page.url,
+                "description": publication_description
+            })
+            ctr += 1
+        except:
+            continue
+
     return results
 
 

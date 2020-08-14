@@ -1,3 +1,5 @@
+
+
 def compose_email(last_name, subject, introduction, body, signature, attachment_links=""):
     subject = "Subject: {}".format(subject) + '\n\n'
     salutation = "Dear Professor {},".format(last_name) + '\n'

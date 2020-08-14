@@ -1,2 +1,2 @@
-from email_handler.email_client import EmailClient
-from email_handler.compose_email import compose_email
+from .email_client import EmailClient
+from .compose_email import compose_email
