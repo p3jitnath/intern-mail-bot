@@ -1,2 +1,2 @@
 import scraper
-scraper.create_mailing_list('Computer Vision')
+scraper.create_mailing_list('Deep Learning')

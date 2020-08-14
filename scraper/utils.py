@@ -33,7 +33,7 @@ def extract_top_publications(author_id):
             publication_soup, _ = get_soup_object(GOOGLE_SCHOLAR_URL + row.find('a', {"class": "gsc_a_at"}).get('data-href'))        
             publication_description = publication_soup.find('div', {"class": "gsh_small"}).text
 
-            if len(publication_description) < 50:
+            if len(publication_description) < 100:
                 raise Exception
             
             publication_gs_url = publication_soup.find('div', {"class": "gsc_vcd_merged_snippet"}).find('div').find('a').get('href')
@@ -48,7 +48,3 @@ def extract_top_publications(author_id):
             continue
 
     return results
-
-
-
-

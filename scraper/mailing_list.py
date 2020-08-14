@@ -1,8 +1,9 @@
 from .utils import get_soup_object, extract_home_page, extract_top_publications
+from .skrapp import retrieve_email
 from scholarly import scholarly
 import json
 
-LIMIT = 2
+LIMIT = 5
 
 def to_dict(author_obj):
     del author_obj['nav']
@@ -19,9 +20,7 @@ def create_mailing_list(category):
     ctr = 0
     while True: 
         try: 
-            
             professor = next(search_query) 
-
             try:
                 with open('./records/mailing_list_{}.json'.format(category_filename), 'r') as file:
                     collection = json.load(file)
@@ -29,17 +28,21 @@ def create_mailing_list(category):
                 collection = []
 
             professor = to_dict(professor.__dict__)
-            print("Getting : Prof. {}".format(professor['name']))
+            print("Getting : Prof. {} ...".format(professor['name']))
 
             if len(search_by_id(collection, professor['id'])) == 0:
                 professor['homepage'] = extract_home_page(professor['id'])
                 publication = extract_top_publications(professor['id'])
                 professor['publications'] = []
                 professor['publications'].append(publication)
+                professor['email'] = retrieve_email(professor['name'], professor['email'])
                 collection.append(professor)
                 with open('./records/mailing_list_{}.json'.format(category_filename), 'w') as file:
                     json.dump(collection, file)
                 ctr += 1
+            
+            else:
+                print("Already Scraped")
             
             if (ctr == LIMIT):
                 break
