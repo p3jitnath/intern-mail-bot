@@ -1,0 +1,53 @@
+Subject: [Intern-Mail-Bot] Prof. William H. Press 
+
+Date: 2020-08-15 20:53:02.791408 UTC
+Field : Computer Vision
+
+---------------------------------------------------------------
+Google Scholar Id: yi6DR64AAAAJ 
+Name: William H. Press
+Affiliation: Professor of Computer Science and Integrative Biology, UT Austin
+Email Id: None
+Interests:  Computational Biology, Algorithms, Astrophysics
+Cited: 212408
+
+Publications 
+--------------------------
+Id: 1
+Publication : Numerical recipes 3rd edition: The art of scientific computing 
+URL : https://books.google.co.in/books?hl=en&lr=&id=gn_4mpdN9WkC&oi=fnd&pg=PR13&ots=Ufxc_cHftj&sig=SwuSqdQYIANRo8fGJyQban93dUU&redir_esc=y
+Summary : This new edition incorporates more than 400 routines, many of them new or upgraded. The executable code, now printed in color for easy reading, adopts an object-oriented style. The whole book is presented in the informal, easy-to-read style that made earlier editions so popular. Please visit www. Nr. Com or www. Cambridge. Org/us/numericalrecipes.
+--------------------------
+
+--------------------------
+Id: 2
+Publication : Formation of galaxies and clusters of galaxies by self-similar gravitational condensation 
+URL : http://articles.adsabs.harvard.edu/full/1974ApJ...187..425P
+Summary : Growth of the mean, 80th percentile and 30th percentile cluster with expansion factor. Experiment appears consistent with the relation. M r2 which is predicted by the linear. Perturbation theory. Experiment b does not appear to be consistent with. The relation m r2 which is predicted by the. Linear perturbation theory.
+--------------------------
+
+--------------------------
+Id: 3
+Publication : The cosmological constant 
+URL : https://link.springer.com/article/10.12942/lrr-2001-1
+Summary : Cosmological constant introduced by einstein as a new term in his gravitational field equations. "cosmological constant" was later regretted by him as "the biggest blunder of my life" cosmological constant, cosmology and physics bring different perspectives to the" cosmological constant problem" cosmological constant is a constant in space and time.
+--------------------------
+
+--------------------------
+Id: 4
+Publication : Numerical recipes in Pascal: the art of scientific computing 
+URL : https://books.google.co.in/books?hl=en&lr=&id=cyQ_pIMYPEUC&oi=fnd&pg=PR11&ots=i2iPHOLqW4&sig=mhcUACJmBeAc2Ql4ottOTdrllNU&redir_esc=y
+Summary : Numerical recipes in pascal fills a long-recognized need for a practical, comprehensive handbook of scientific computing in the pascal language. The scope of the book ranges from standard areas of numerical analysis (linear algebra, differential equations, roots) authors make extensive use of pointers, dynamic memory allocation, and other features utilized by this language.
+--------------------------
+
+--------------------------
+Id: 5
+Publication : Rotating black holes: locally nonrotating frames, energy extraction, and scalar synchrotron radiation 
+URL : http://articles.adsabs.harvard.edu/full/1972ApJ...178..347B/0000347.000.html
+Summary : When a- m, the orbits at rms, rmb, and rph all have the same circumference and coordinate radius, although-as the embedding diagram shows clearly-they are in fact distinct. When a- m, the orbits at rms and rmb all have the same circumference and radius, although-as the diagram shows-they are in fact distinct.
+--------------------------
+
+---------------------------------------------------------------
+
+With Best Wishes,
+IMB

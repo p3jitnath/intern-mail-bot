@@ -1,0 +1,53 @@
+Subject: [Intern-Mail-Bot] Prof. Yen-Da Chen (陳彥達) 
+
+Date: 2020-08-15 20:52:56.650429 UTC
+Field : Computer Vision
+
+---------------------------------------------------------------
+Google Scholar Id: q82Ij2QAAAAJ 
+Name: Yen-Da Chen (陳彥達)
+Affiliation: … of Computer Information and Network Engineering Lunghwa University of Science and
+Email Id: None
+Interests:  Yen-Da Chen (陳彥達)
+Cited: 268094
+
+Publications 
+--------------------------
+Id: 1
+Publication : Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC 
+URL : https://www.sciencedirect.com/science/article/pii/S037026931200857X
+Summary : Clear evidence for the production of a neutral boson with a measured mass of 126.00.4 (stat)0.4 (sys) gev is presented. This observation, which has a significance of 5.9 standard deviations, corresponding to a background fluctuation probability of 1.7 10 9 is compatible with the production and decay of the standard model.
+--------------------------
+
+--------------------------
+Id: 2
+Publication : The ATLAS simulation infrastructure 
+URL : https://link.springer.com/article/10.1140/epjc/s10052-010-1429-9
+Summary : Simulation software for the atlas experiment at the large hadron collider is being used. This simulation requires many components, from generators that simulate collisions to packages simulating the response of the various detectors and triggers. All of these components come together under the atlas simulation infrastructure. In this paper, that infrastructure is discussed, including that supporting the detector description.
+--------------------------
+
+--------------------------
+Id: 3
+Publication : Heart disease and stroke statistics—2018 update: a report from the American Heart Association 
+URL : https://www.ahajournals.org/doi/10.1161/cir.0000000000000558
+Summary : Each year, the american heart association brings together in a single document the most up-to-date statistics related to heart disease, stroke, and cardiovascular risk factors. The statistical update represents a critical resource for the lay public, policy makers, policy makers, clinicians, and others seeking the best available data on these factors and conditions. The statistical update represents a critical resource for policy makers, policy makers, media professionals, clinicians,... Health advocates 
+--------------------------
+
+--------------------------
+Id: 4
+Publication : GW170817: observation of gravitational waves from a binary neutron star inspiral 
+URL : https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.161101
+Summary : On august 17, 2017 the gravitational-wave detectors made their first observation of a binary neutron star inspiral. The signal, gw170817, was detected with a combined signal-to-noise ratio of 32.4. The source was localized within a sky region of 28 deg 2 (90% probability) and had a luminosity distance of 4 0 14+ 8 mpc.
+--------------------------
+
+--------------------------
+Id: 5
+Publication : Measurement of the Z/ γ* boson transverse momentum distribution in pp collisions at  TeV with the ATLAS detector 
+URL : https://link.springer.com/content/pdf/10.1007/JHEP09(2014)145.pdf
+Summary : The measurement is performed in the z/* e+ e and z/* +  channels. The channel results are combined, compared to perturbative and resummed qcd calculations. The channel results are used to constrain the parton shower parameters of monte carlo generators.
+--------------------------
+
+---------------------------------------------------------------
+
+With Best Wishes,
+IMB

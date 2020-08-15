@@ -1,0 +1,53 @@
+Subject: [Intern-Mail-Bot] Prof. Jiawei Han 
+
+Date: 2020-08-15 20:53:05.847644 UTC
+Field : Computer Vision
+
+---------------------------------------------------------------
+Google Scholar Id: Kv9AbjMAAAAJ 
+Name: Jiawei Han
+Affiliation: Abel Bliss Professor of Computer Science, University of Illinois
+Email Id: None
+Interests:  data mining, database systems, data warehousing, information networks
+Cited: 191708
+
+Publications 
+--------------------------
+Id: 1
+Publication : Data mining: concepts and techniques 
+URL : https://books.google.co.in/books?hl=en&lr=&id=pQws07tdpjoC&oi=fnd&pg=PP1&ots=tzMx0TiBY3&sig=7S9QcFuWhIbx507jsOvlX3g_23g&redir_esc=y
+Summary : This book is referred as the knowledge discovery from data (kdd) it focuses on the feasibility, usefulness, effectiveness, and scalability of techniques of large data sets. This book is intended for computer science students, application developers, business professionals, and researchers who seek information on data mining. Data mining: concepts and techniques provides the concepts and techniques in processing gathered data or information.
+--------------------------
+
+--------------------------
+Id: 2
+Publication : Mining frequent patterns without candidate generation 
+URL : https://dl.acm.org/doi/abs/10.1145/335191.335372
+Summary : Frequent pattern tree is an extended prefix-tree structure for storing frequent patterns. A large database is compressed into a highly condensed, much smaller data structure. Our fp-tree-based mining method, fp-growth, mines the complete set of frequent patterns. The fp-tree-based mining method uses pattern fragment growth to find frequent patterns.
+--------------------------
+
+--------------------------
+Id: 3
+Publication : Data mining: an overview from a database perspective 
+URL : https://ieeexplore.ieee.org/abstract/document/553155/
+Summary : This article provides a survey, from a database researcher's point of view, on the data mining techniques developed recently. A classification of the available data mining techniques is provided and a comparative study of such techniques is presented. Data mining is a key research topic in database systems and machine learning. Emerging applications in information-providing services also call for various data mining techniques.
+--------------------------
+
+--------------------------
+Id: 4
+Publication : Prefixspan: Mining sequential patterns efficiently by prefix-projected pattern growth 
+URL : http://jayurbain.com/msoe/cs498-datamining/prefixspan_mining_sequential_patterns_by_prefix_projected_growth.pdf
+Summary : We propose a novel sequential pattern mining method, called prefixspan. Prefix-projection substantially reduces the size of projected databases and leads to efficient processing. Performance study shows that prefixspan outperforms both the],     -based gsp algorithm and another recently proposed method, freespan.
+--------------------------
+
+--------------------------
+Id: 5
+Publication : Mining frequent patterns without candidate generation: A frequent-pattern tree approach 
+URL : https://link.springer.com/article/10.1023/B:DAMI.0000005258.31418.83
+Summary : Frequent-pattern tree (fp-tree) is an extended prefix-tree structure for storing information about frequent patterns. A large database is compressed into a condensed, smaller data structure, fp-tree which avoids costly, repeated database scans. Our fp-growth method for mining the complete set of frequent patterns by pattern fragment growth.
+--------------------------
+
+---------------------------------------------------------------
+
+With Best Wishes,
+IMB

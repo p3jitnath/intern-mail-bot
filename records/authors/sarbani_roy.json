@@ -1,0 +1,48 @@
+{
+    "id": "vembv2sAAAAJ",
+    "url_picture": "https://scholar.google.com/citations?view_op=medium_photo&user=vembv2sAAAAJ",
+    "name": "Sarbani Roy",
+    "affiliation": "Professor of Department of Computer Science & Engineering, Jadavpur University",
+    "email": "sarbani.roy@jadavpuruniversity.in",
+    "interests": [
+        "Cloud Computing",
+        "IoT",
+        "WSN",
+        "Social Network Analysis",
+        "Societal Applications"
+    ],
+    "citedby": 911,
+    "homepage": "https://sites.google.com/site/sarbaniroy/",
+    "publications": [
+        {
+            "name": "A modified SPIN for wireless sensor networks",
+            "url": "https://ieeexplore.ieee.org/abstract/document/5716469/",
+            "description": "Data transmission is one of the major challenges in wireless sensor network (WSN). Different routing protocols have been proposed to save energy during data transmission in WSN. Routing protocols based on data-centric approach are suitable in this context that performs in-network aggregation of data to yield energy saving data dissemination. In this paper we propose a modified version of SPIN protocol named M-SPIN and compare its performance with traditional SPIN protocol using broadcast communication, which is a well known protocol as benchmark. We evaluate the M-SPIN protocol using simulation in TOSSIM environment. We find that, M-SPIN exhibits significant performance gains than traditional SPIN routing.",
+            "summary": "Routing protocols have been proposed to save energy during data transmission in wireless sensor network (wsn) in this paper we propose a modified version of spin protocol named m-spin. We compare its performance with traditional spin protocol using broadcast communication, which is a well known protocol as benchmark. We find that, m-spin exhibits significant performance gains than traditional spin routing."
+        },
+        {
+            "name": "AirSense: Opportunistic Crowd-Sensing based Air Quality monitoring System for Smart City",
+            "url": "https://ieeexplore.ieee.org/abstract/document/7808730/",
+            "description": "Citizens are exposed to air pollutants both indoors and outdoors due to their activities, which may result in a variety of health effects. In this paper, we present AirSense, an opportunistic crowd-sensing based air quality monitoring system, aimed at collecting and aggregating sensor data to monitor air pollution in the vicinity and the city. We introduce a light weight, low power and low cost air quality monitoring device (AQMD) and demonstrate how AQMD and smart phone devices in a crowd collaboratively (through offloading) gather and share data of interest to the cloud. In cloud, collected data will be analyzed and an aggregated view will be generated for providing an air pollution heat map of the city. End user can view both the neighborhood (local) air quality and AQImap (air quality index map) of the city on his/her smartphone.",
+            "summary": "Citizens are exposed to air pollutants both indoors and outdoors due to their activities, which may result in a variety of health effects. In this paper, we present airsense, an opportunistic crowd-sensing based air quality monitoring system. We introduce a light weight, low power and low cost air quality monitoring device (aqmd) and demonstrate how aqmd and smart phone devices in a crowd collaboratively gather and share data of"
+        },
+        {
+            "name": "Multiple-sink placement strategies in wireless sensor networks",
+            "url": "https://ieeexplore.ieee.org/abstract/document/6465578/",
+            "description": "Multiple sinks are deployed in large-scale wireless sensor networks (WSNs) to minimize transmission delay and energy consumption and also to extend the network life time. Since the data collected by sensor nodes are forwarded to the sink, therefore proper placement of sinks has a great impact on the performance of the WSNs. This paper introduces two sink placement strategies and discusses their advantages and disadvantages in comparison with an existing strategy. The two strategies are compared with the Geographic Sink Placement (GSP) [3] strategy which is used as a benchmark. Both GSP and proposed two strategies are implemented and evaluated in a simulation environment. Performances of these strategies are analyzed and analysis results are presented in this paper. It has been observed that the proposed strategies exhibit better performances with respect to energy usage and lifetime in\u00a0\u2026",
+            "summary": "Multiple sinks are deployed in large-scale wireless sensor networks (wsns) to minimize transmission delay and energy consumption and also to extend the network life time. Proper placement of sinks has a great impact on the performance of the wsns. This paper introduces two sink placement strategies and discusses their advantages and disadvantages in comparison with an existing strategy."
+        },
+        {
+            "name": "IoT-fog-cloud based architecture for smart city: Prototype of a smart building",
+            "url": "https://ieeexplore.ieee.org/abstract/document/7943156/",
+            "description": "Here, we present a prototype of a smart building using newly surfacing technologies like IoT (Internet of Things), fog and cloud for the smart city. The demand for everything smart is increasing daily, but the main stumbling block is its high price. So, our aim is to improve the standard of living in home and in office with newly improved working facilities where the whole system will be automatic, efficient and will be under the control of the user via his/her smartphone or computer but the cost will stay within the budget of a common man. All these are done by the incorporation of IoT, fog and cloud. The assimilation is done using open source hardwares and softwares to reduce the cost dramatically than the other existing solutions and implement it in an impressive and ingenious way without compromising QoS (Quality of Service) of any of the functionalities provided by other existing solutions.",
+            "summary": "We present a prototype of a smart building using newly surfacing technologies like iot, fog and cloud for the smart city. Our aim is to improve the standard of living in home and in office with newly improved working facilities. The whole system will be automatic, efficient and will be under the control of the user via his/her smartphone or computer. All these are done by the incorporation of iot, fog and cloud."
+        },
+        {
+            "name": "Towards Smart City: Sensing Air Quality in City based on Opportunistic Crowd-sensing",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3007748.3018286",
+            "description": "Cities are expanding and more and more citizens are exposed to air pollutants both indoors and outdoors. This may have adverse effects on citizens' health. In this paper, we present AirSense, an opportunistic crowd-sensing based air quality monitoring system, aimed at collecting and aggregating sensor data to monitor air pollution in the vicinity (building/neighbourhood) and the city. We introduce a light weight, low power and low cost air quality monitoring device (AQMD) and demonstrate how AQMD and smartphones in a crowd collaboratively gather and share data of interest to the cloud. In cloud, collected data are analyzed and an aggregate view is generated from data collected from various sensors and from different users for providing an air pollution heat map of the city. Unlike previous works, both micro and macro level air quality monitoring is possible with Airsense. End user can view his/her pollution\u00a0\u2026",
+            "summary": "Cities are expanding and more and more citizens are exposed to air pollutants. This may have adverse effects on citizens' health. In this paper, we present airsense, an opportunistic crowd-sensing based air quality monitoring system. It collects and aggregates sensor data to monitor air pollution in the vicinity (building/neighbourhood) and the city."
+        }
+    ]
+}

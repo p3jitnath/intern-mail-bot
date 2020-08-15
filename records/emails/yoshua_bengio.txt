@@ -1,0 +1,53 @@
+Subject: [Intern-Mail-Bot] Prof. Yoshua Bengio 
+
+Date: 2020-08-15 20:52:52.774877 UTC
+Field : Computer Vision
+
+---------------------------------------------------------------
+Google Scholar Id: kukA0LcAAAAJ 
+Name: Yoshua Bengio
+Affiliation: Professor of computer science, University of Montreal, Mila, IVADO, CIFAR
+Email Id: yoshua.bengio@umontreal.ca
+Interests:  Machine learning, deep learning, artificial intelligence
+Cited: 311468
+
+Publications 
+--------------------------
+Id: 1
+Publication : Gradient-based learning applied to document recognition 
+URL : https://ieeexplore.ieee.org/abstract/document/726791/
+Summary : Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique. Gradient-based learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns. This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task.
+--------------------------
+
+--------------------------
+Id: 2
+Publication : Deep learning 
+URL : https://www.nature.com/articles/nature14539
+Summary : Deep learning allows computational models composed of multiple processing layers to learn representations of data with multiple levels of abstraction. These methods have dramatically improved the state-of-the-art in speech recognition, visual object recognition, object detection. Deep convolutional nets have brought about breakthroughs in processing images, video, speech and audio. Recurrent nets have shone light on sequential data such as text and speech.
+--------------------------
+
+--------------------------
+Id: 3
+Publication : Generative adversarial nets 
+URL : http://papers.nips.cc/paper/5423-generative-adversarial-nets
+Summary : We propose a new framework for estimating generative models via adversarial nets. We simultaneously train two models: a generative model that captures the data distribution, and a discriminative model that estimates the probability that a sample came from the training data rather than g. The training procedure for g is to maximize the probability of d making a mistake.
+--------------------------
+
+--------------------------
+Id: 4
+Publication : Deep learning 
+URL : https://books.google.co.in/books?hl=en&lr=&id=omivDQAAQBAJ&oi=fnd&pg=PR5&ots=MMV5fmtHNZ&sig=krRF_MarHKd2fpzGba6STw_UMDw&redir_esc=y
+Summary : This book introduces a broad range of topics in deep learning. Deep learning is a form of machine learning that enables computers to learn from experience. The hierarchy of concepts allows the computer to learn complicated concepts by building them out of simpler ones. "deep learning is the only comprehensive book on the subject," says elon musk.
+--------------------------
+
+--------------------------
+Id: 5
+Publication : Neural machine translation by jointly learning to align and translate 
+URL : https://arxiv.org/abs/1409.0473
+Summary : Neural machine translation is a recently proposed approach to machine translation. It aims at building a single neural network that can be jointly tuned to maximize the translation performance. In this paper, we propose to extend a model to automatically (soft-) search for parts of a source sentence that are relevant to predicting a target word. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system
+--------------------------
+
+---------------------------------------------------------------
+
+With Best Wishes,
+IMB

@@ -1,0 +1,53 @@
+Subject: [Intern-Mail-Bot] Prof. David S. Johnson 
+
+Date: 2020-08-15 20:52:59.739114 UTC
+Field : Computer Vision
+
+---------------------------------------------------------------
+Google Scholar Id: LyEq7qEAAAAJ 
+Name: David S. Johnson
+Affiliation: Visiting Professor, Columbia University Computer Science Department
+Email Id: None
+Interests:  Algorithms, computer science, optimization, traveling salesman problem, bin packing
+Cited: 239885
+
+Publications 
+--------------------------
+Id: 1
+Publication : Dynamic source routing in ad hoc wireless networks 
+URL : https://link.springer.com/chapter/10.1007/978-0-585-29603-6_5
+Summary : This paper presents a protocol for routing in ad hoc networks that uses dynamic source routing. The protocol adapts quickly to routing changes when host movement is frequent, yet requires little or no overhead during periods in which hosts move less frequently. The protocol performs well over a variety of environmental conditions, such as host density and movement rates.
+--------------------------
+
+--------------------------
+Id: 2
+Publication : Learning together and alone: Cooperative, competitive, and individualistic learning 
+URL : https://psycnet.apa.org/record/1986-98283-000
+Summary : This book is about competition, cooperation, and individualistic effort. It gives you, the teacher, an easier, more productive, and more enjoyable approach to teaching. It combines theories of social psychology and classroom practice. The book is available in paperback or e-book form at amazon.com and october 1st, 2013.
+--------------------------
+
+--------------------------
+Id: 3
+Publication : Initial sequencing and comparative analysis of the mouse genome 
+URL : https://profiles.wustl.edu/en/publications/initial-sequencing-and-comparative-analysis-of-the-mouse-genome
+Summary : This paper reports the results of an international collaboration to produce a high-quality draft sequence of the mouse genome. It also presents an initial comparative analysis of the mouse and human genomes. The sequence of the mouse genome is a key informational tool for understanding the contents of the human genome and a key experimental tool for biomedical research.
+--------------------------
+
+--------------------------
+Id: 4
+Publication : A performance comparison of multi-hop wireless ad hoc network routing protocols 
+URL : https://dl.acm.org/doi/abs/10.1145/288235.288256
+Summary : An ad hoc networkis a collwtion of wirelessmobilenodes dynamically forminga temporarynetworkwithoutthe use of anyexistingnetworkirrfrastructure. Dueto the limitedtransmissionrange of vlrelessnenvorkinterfaces, multiplenetwork “hops” maybe needed. In recentyears, a ttiery of nelvroutingproto
+--------------------------
+
+--------------------------
+Id: 5
+Publication : Estimating the reproducibility of psychological science 
+URL : https://science.sciencemag.org/content/349/6251/aac4716.abstract
+Summary : Even research of exemplary quality may have irreproducible empirical findings because of random or systematic error. There is concern about the rate and predictors of reproducibility, but limited evidence. Direct replication is the attempt to recreate the conditions believed sufficient for obtaining a previously observed finding with new data. A large-scale, collaborative effort was conducted to obtain an...
+--------------------------
+
+---------------------------------------------------------------
+
+With Best Wishes,
+IMB

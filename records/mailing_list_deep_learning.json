@@ -1,0 +1,235 @@
+[
+    {
+        "id": "ITZ1e7MAAAAJ",
+        "url_picture": "https://scholar.google.com/citations?view_op=medium_photo&user=ITZ1e7MAAAAJ",
+        "name": "Ruslan Salakhutdinov",
+        "affiliation": "UPMC Professor, Machine Learning Department, CMU",
+        "email": "ruslan.salakhutdinov@cs.cmu.edu",
+        "interests": [
+            "Machine Learning",
+            "Artificial Intelligence",
+            "Deep Learning"
+        ],
+        "citedby": 93179,
+        "homepage": "http://www.cs.cmu.edu/~rsalakhu/",
+        "publications": [
+            {
+                "name": "Dropout: a simple way to prevent neural networks from overfitting",
+                "url": "https://dl.acm.org/doi/abs/10.5555/2627435.2670313",
+                "description": "Deep neural nets with a large number of parameters are very powerful machine learning systems. However, overfitting is a serious problem in such networks. Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. Dropout is a technique for addressing this problem. The key idea is to randomly drop units (along with their connections) from the neural network during training. This prevents units from co-adapting too much. During training, dropout samples from an exponential number of different \"thinned\" networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network that has smaller weights. This significantly reduces overfitting and gives major improvements over other regularization methods. We show that dropout improves\u00a0\u2026",
+                "summary": "Dropout randomly drops units from the neural network during training. This prevents units from co-adapting too much. Dropout samples from an exponential number of different \"thinned\" networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network."
+            },
+            {
+                "name": "Reducing the dimensionality of data with neural networks",
+                "url": "https://science.sciencemag.org/content/313/5786/504.abstract",
+                "description": "High-dimensional data can be converted to low-dimensional codes by training a multilayer neural network with a small central layer to reconstruct high-dimensional input vectors. Gradient descent can be used for fine-tuning the weights in such \u201cautoencoder\u201d networks, but this works well only if the initial weights are close to a good solution. We describe an effective way of initializing the weights that allows deep autoencoder networks to learn low-dimensional codes that work much better than principal components analysis as a tool to reduce the dimensionality of data.",
+                "summary": "We describe an effective way of initializing the weights that allows deep autoencoder networks to learn low-dimensional codes. Principal components analysis works much better than principal components analysis as a tool to reduce the dimensionality of data. A multilayer neural network with a small central layer can be trained to reconstruct high-dimensional input vectors."
+            },
+            {
+                "name": "Show, attend and tell: Neural image caption generation with visual attention",
+                "url": "http://proceedings.mlr.press/v37/xuc15.pdf",
+                "description": "Inspired by recent work in machine translation and object detection, we introduce an attention based model that automatically learns to describe the content of images. We describe how we can train this model in a deterministic manner using standard backpropagation techniques and stochastically by maximizing a variational lower bound. We also show through visualization how the model is able to automatically learn to fix its gaze on salient objects while generating the corresponding words in the output sequence. We validate the use of attention with state-of-theart performance on three benchmark datasets: Flickr9k, Flickr30k and MS COCO.",
+                "summary": "Inspired by recent work in machine translation and object detection, we introduce an attention based model that automatically learns to describe the content of images. The model is able to automatically learn to fix its gaze on salient objects while generating the corresponding words in the output sequence. We validate the use of attention with state-of-the-art performance on three benchmark datasets: flickr9k, flickr30k and ms coco."
+            },
+            {
+                "name": "Improving neural networks by preventing co-adaptation of feature detectors",
+                "url": "https://arxiv.org/abs/1207.0580",
+                "description": "When a large feedforward neural network is trained on a small training set, it typically performs poorly on held-out test data. This\" overfitting\" is greatly reduced by randomly omitting half of the feature detectors on each training case. This prevents complex co-adaptations in which a feature detector is only helpful in the context of several other specific feature detectors. Instead, each neuron learns to detect a feature that is generally helpful for producing the correct answer given the combinatorially large variety of internal contexts in which it must operate. Random\" dropout\" gives big improvements on many benchmark tasks and sets new records for speech and object recognition.",
+                "summary": "When a large feedforward neural network is trained on a small training set, it performs poorly. Randomly omitting half of the feature detectors on each training case greatly reduces overfitting. Random \"dropout\" gives big improvements on many benchmark tasks and sets new records. \"dropout\" randomly omits half the feature detectors on each training case."
+            },
+            {
+                "name": "Semi-supervised learning using gaussian fields and harmonic functions",
+                "url": "https://www.aaai.org/Papers/ICML/2003/ICML03-118.pdf?source=post_page---------------------------",
+                "description": "An approach to semi-supervised learning is proposed that is based on a Gaussian random field model. Labeled and unlabeled data are represented as vertices in a weighted graph, with edge weights encoding the similarity between instances. The learning problem is then formulated in terms of a Gaussian random field on this graph, where the mean of the field is characterized in terms of harmonic functions, and is efficiently obtained using matrix methods or belief propagation. The resulting learning algorithms have intimate connections with random walks, electric networks, and spectral graph theory. We discuss methods to incorporate class priors and the predictions of classifiers obtained by supervised learning. We also propose a method of parameter learning by entropy minimization, and show the algorithm\u2019s ability to perform feature selection. Promising experimental results are presented for synthetic data, digit classification, and text classification tasks.",
+                "summary": "Semi-supervised learning is based on a gaussian random field model. Labeled and unlabeled data are represented as vertices in a weighted graph. The learning problem is then formulated in terms of a gaussian random field. The mean of the field is characterized in terms of harmonic functions."
+            }
+        ]
+    },
+    {
+        "id": "jplQac8AAAAJ",
+        "url_picture": "https://scholar.google.com/citations?view_op=medium_photo&user=jplQac8AAAAJ",
+        "name": "Klaus-Robert M\u00fcller",
+        "affiliation": "Google Brain (on leave of Professor for Machine Learning, TU Berlin & Korea University \u2026",
+        "email": "kmuller@tu-berlin.de",
+        "interests": [
+            "Machine learning",
+            "artificial intelligence",
+            "big data",
+            "computational neuroscience"
+        ],
+        "citedby": 77840,
+        "homepage": null,
+        "publications": [
+            {
+                "name": "Nonlinear component analysis as a kernel eigenvalue problem",
+                "url": "https://www.mitpressjournals.org/doi/abs/10.1162/089976698300017467",
+                "description": "A new method for performing a nonlinear form of principal component analysis is proposed. By the use of integral operator kernel functions, one can efficiently compute principal components in high-dimensional feature spaces, related to input space by some nonlinear map\u2014for instance, the space of all possible five-pixel products in 16 \u00d7 16 images. We give the derivation of the method and present experimental results on polynomial feature extraction for pattern recognition.",
+                "summary": "A new method for performing a nonlinear form of principal component analysis is proposed. By the use of integral operator kernel functions, one can efficiently compute principal components in high-dimensional feature spaces. We give the derivation of the method and present experimental results on polynomial feature extraction for pattern recognition. A new version of the principal component analysis algorithm is proposed."
+            },
+            {
+                "name": "An introduction to kernel-based learning algorithms",
+                "url": "https://ieeexplore.ieee.org/abstract/document/914517/",
+                "description": "This paper provides an introduction to support vector machines, kernel Fisher discriminant analysis, and kernel principal component analysis, as examples for successful kernel-based learning methods. We first give a short background about Vapnik-Chervonenkis theory and kernel feature spaces and then proceed to kernel based learning in supervised and unsupervised scenarios including practical and algorithmic considerations. We illustrate the usefulness of kernel algorithms by discussing applications such as optical character recognition and DNA analysis.",
+                "summary": "Support vector machines, kernel fisher discriminant analysis, and kernel principal component analysis are examples of successful kernel-based learning methods. We illustrate the usefulness of kernel algorithms by discussing applications such as optical character recognition and dna analysis. A kernel algorithm is a kernel-based learning algorithm. A kernel-based learning algorithm is a kernel-based algorithm."
+            },
+            {
+                "name": "Efficient backprop",
+                "url": "https://link.springer.com/chapter/10.1007/978-3-642-35289-8_3",
+                "description": " The convergence of back-propagation learning is analyzed so as to explain common phenomenon observed by practitioners. Many undesirable behaviors of backprop can be avoided with tricks that are rarely exposed in serious technical publications. This paper gives some of those tricks, and offers explanations of why they work. Many authors have suggested that second-order optimization methods are advantageous for neural net training. It is shown that most \u201cclassical\u201d second-order methods are impractical for large neural networks. A few methods are proposed that do not have these limitations.",
+                "summary": "Many undesirable behaviors of backprop can be avoided with tricks that are rarely exposed in serious technical publications. This paper gives some of those tricks, and offers explanations of why they work. Many authors have suggested that second-order optimization methods are advantageous for neural net training. Most \u201cclassical\u201d second-order methods are impractical for large neural networks."
+            },
+            {
+                "name": "Fisher discriminant analysis with kernels",
+                "url": "https://ieeexplore.ieee.org/abstract/document/788121/",
+                "description": "A non-linear classification technique based on Fisher's discriminant is proposed. The main ingredient is the kernel trick which allows the efficient computation of Fisher discriminant in feature space. The linear classification in feature space corresponds to a (powerful) non-linear decision function in input space. Large scale simulations demonstrate the competitiveness of our approach.",
+                "summary": "A non-linear classification technique based on fisher's discriminant is proposed. The main ingredient is the kernel trick which allows the efficient computation of fisher discriminant in feature space. The linear classification in feature space corresponds to a (powerful) non-linear decision function in input space. Large scale simulations demonstrate the competitiveness of our approach."
+            },
+            {
+                "name": "Kernel principal component analysis",
+                "url": "https://link.springer.com/chapter/10.1007/BFb0020217",
+                "description": " A new method for performing a nonlinear form of Principal Component Analysis is proposed. By the use of integral operator kernel functions, one can efficiently compute principal components in highdimensional feature spaces, related to input space by some nonlinear map; for instance the space of all possible d-pixel products in images. We give the derivation of the method and present experimental results on polynomial feature extraction for pattern recognition.",
+                "summary": "A new method for performing a nonlinear form of principal component analysis is proposed. By the use of integral operator kernel functions, one can efficiently compute principal components in highdimensional feature spaces. We give the derivation of the method and present experimental results on polynomial feature extraction for pattern recognition. A new version of principal component analysis is proposed."
+            }
+        ]
+    },
+    {
+        "id": "MnfzuPYAAAAJ",
+        "url_picture": "https://scholar.google.com/citations?view_op=medium_photo&user=MnfzuPYAAAAJ",
+        "name": "Tom Mitchell",
+        "affiliation": "Founders University Professor of Machine Learning, Carnegie Mellon University",
+        "email": "tom.mitchell@cs.cmu.edu",
+        "interests": [
+            "Machine Learning",
+            "cognitive neuroscience",
+            "natural language understanding"
+        ],
+        "citedby": 53003,
+        "homepage": "http://cs.cmu.edu/~tom",
+        "publications": [
+            {
+                "name": "Combining labeled and unlabeled data with co-training",
+                "url": "https://dl.acm.org/doi/abs/10.1145/279943.279962",
+                "description": "We consider the problem of using a large unlabeled sample to boost performance of a learning algorit, hrn when only a small set of labeled examples is available. In particular, we consider a problem setting motivated by the task of learning to classify web pages, in which the description of each example can be partitioned into two distinct views. For example, the description of a web page can be partitioned into the words occurring on that page, and the words occurring in hyperlinks t, hat point to that page. We assume that either view of the example would be sufficient for learning if we had enough labeled data, but our goal is to use both views together to allow inexpensive unlabeled data to augment, a much smaller set of labeled examples. Specifically, the presence of two distinct views of each example suggests strategies in which two learning algorithms are trained separately on each view, and then each\u00a0\u2026",
+                "summary": "We consider the problem of using a large unlabeled sample to boost performance of a learning algorit, hrn when only a small set of labeled examples is available. Our goal is to use both views together to allow inexpensive unlabeled data to augment, a much smaller set of labeled examples."
+            },
+            {
+                "name": "Text classification from labeled and unlabeled documents using EM",
+                "url": "https://link.springer.com/article/10.1023/A:1007692713085",
+                "description": "This paper shows that the accuracy of learned text classifiers can be improved by augmenting a small number of labeled training documents with a large pool of unlabeled documents. This is important because in many text classification problems obtaining training labels is expensive, while large quantities of unlabeled documents are readily available.",
+                "summary": "Accuracy of learned text classifiers can be improved by augmenting a small number of labeled training documents with a large pool of unlabeled documents. Obtaining training labels is expensive, while large quantities of unlabeled documents are readily available. This is important because in many text classification problems obtaining training labels is expensive."
+            },
+            {
+                "name": "An artificial intelligence approach",
+                "url": "https://link.springer.com/book/10.1007%2F978-3-662-12405-5",
+                "description": "The ability to learn is one of the most fundamental attributes of intelligent behavior. Consequently, progress in the theory and computer modeling of learning processes is of great significance to fields concerned with understanding intelligence. Such fields include cognitive science, artificial intelligence, information science, pattern recognition, psychology, education, epistemology, philosophy, and related disciplines.The recent observance of the silver anniversary of artificial intelligence has been heralded by a surge of interest in machine learning-both in building models of human learning and in understanding how machines might be endowed with the ability to learn. This renewed interest has spawned many new research projects and resulted in an increase in related scientific activities. In the summer of 1980, the First Machine Learning Workshop was held at Carnegie-Mellon University in Pittsburgh. In the same\u00a0\u2026",
+                "summary": "The recent observance of the silver anniversary of artificial intelligence has been heralded by a surge of interest in machine learning. In 1980, the first machine learning workshop was held at carnegie-mellon university in pittsburgh. In the summer of 1980, the first machine learning workshop was held at california state university."
+            },
+            {
+                "name": "Explanation-based generalization: A unifying view",
+                "url": "https://link.springer.com/article/10.1023/A:1022691120807",
+                "description": " The problem of formulating general concepts from specific training examples has long been a major focus of machine learning research. While most previous research has focused on empirical methods for generalizing from a large number of training examples using no domain-specific knowledge, in the past few years new methods have been developed for applying domain-specific knowledge to formulate valid generalizations from single training examples. The characteristic common to these methods is that their ability to generalize from a single example follows from their ability to explain why the training example is a member of the concept being learned. This paper proposes a general, domain-independent mechanism, called EBG, that unifies previous approaches to explanation-based generalization. The EBG method is illustrated in the context of several example problems, and used to contrast\u00a0\u2026",
+                "summary": "Formulating general concepts from specific training examples has long been a major focus of machine learning research. In the past few years new methods have been developed for applying domain-specific knowledge to formulate valid generalizations from single training examples. This paper proposes a general, domain-independent mechanism, called ebg, that unifies previous approaches to explanation-based generalization."
+            },
+            {
+                "name": "Generalization as search",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/0004370282900406",
+                "description": "The problem of concept learning, or forming a general description of a class of objects given a set of examples and non-examples, is viewed here as a search problem. Existing programs that generalize from examples are characterized in terms of the classes of search strategies that they employ. Several classes of search strategies are then analyzed and compared in terms of their relative capabilities and computational complexities.",
+                "summary": "Concept learning, or forming a general description, is viewed here as a search problem. Existing programs that generalize from examples are characterized in terms of the classes of search strategies that they employ. Several classes of search strategies are then analyzed and compared in terms of their relative capabilities and computational complexities. The problem of forming a general description of a class of objects given a set of examples and non-examples is"
+            }
+        ]
+    },
+    {
+        "id": "rvKJDbIAAAAJ",
+        "url_picture": "https://scholar.google.com/citations?view_op=medium_photo&user=rvKJDbIAAAAJ",
+        "name": "Chris Williams",
+        "affiliation": "Professor of Machine Learning, University of Edinburgh",
+        "email": null,
+        "interests": [
+            "Machine learning",
+            "pattern recognition",
+            "computer vision"
+        ],
+        "citedby": 50321,
+        "homepage": null,
+        "publications": [
+            {
+                "name": "Gaussian processes for machine learning",
+                "url": "https://link.springer.com/chapter/10.1007/978-3-540-28650-9_4",
+                "description": " We give a basic introduction to Gaussian Process regression models. We focus on understanding the role of the stochastic process and how it is used to define a distribution over functions. We present the simple equations for incorporating training data and examine how to learn the hyperparameters using the marginal likelihood. We explain the practical advantages of Gaussian Process and end with conclusions and a look at the current trends in GP work.",
+                "summary": "We explain the practical advantages of gaussian process and end with conclusions and a look at the current trends in gp work. We focus on understanding the role of the stochastic process and how it is used to define a distribution over functions. We present the simple equations for incorporating training data and examine how to learn the hyperparameters using the marginal likelihood."
+            },
+            {
+                "name": "Gaussian process for machine learning",
+                "url": "https://link.springer.com/chapter/10.1007/978-3-540-28650-9_4",
+                "description": " We give a basic introduction to Gaussian Process regression models. We focus on understanding the role of the stochastic process and how it is used to define a distribution over functions. We present the simple equations for incorporating training data and examine how to learn the hyperparameters using the marginal likelihood. We explain the practical advantages of Gaussian Process and end with conclusions and a look at the current trends in GP work.",
+                "summary": "We explain the practical advantages of gaussian process and end with conclusions and a look at the current trends in gp work. We focus on understanding the role of the stochastic process and how it is used to define a distribution over functions. We present the simple equations for incorporating training data and examine how to learn the hyperparameters using the marginal likelihood."
+            },
+            {
+                "name": "The PASCAL Visual Object Classes (VOC) challenge",
+                "url": "https://link.springer.com/article/10.1007%252Fs11263-009-0275-4",
+                "description": "Abstract The Pascal Visual Object Classes (VOC) challenge is a benchmark in visual object category recognition and detection, providing the vision and machine learning communities with a standard dataset of images and annotation, and standard evaluation procedures. Organised annually from 2005 to present, the challenge and its associated dataset has become accepted as the benchmark for object detection. This paper describes the dataset and evaluation procedure. We review the state-of-the-art in evaluated methods for both classification and detection, analyse whether the methods are statistically different, what they are learning from the images (eg the object or its context), and what the methods find easy or confuse. The paper concludes with lessons learnt in the three year history of the challenge, and proposes directions for future improvement and extension.",
+                "summary": "The pascal visual object classes (voc) challenge is a benchmark in visual object category recognition and detection. It provides the vision and machine learning communities with a standard dataset of images and annotation, and standard evaluation procedures. The paper concludes with lessons learnt in the three year history of the challenge, and proposes directions for future improvement and extension."
+            },
+            {
+                "name": "The pascal visual object classes challenge: A retrospective",
+                "url": "https://link.springer.com/article/10.1007%252Fs11263-014-0733-5",
+                "description": " The Pascal Visual Object Classes (VOC) challenge consists of two components: (i)\u00a0a publicly available dataset of images together with ground truth annotation and standardised evaluation software; and (ii)\u00a0an annual competition and workshop. There are five challenges: classification, detection, segmentation, action classification, and person layout. In this paper we provide a review of the challenge from 2008\u20132012. The paper is intended for two audiences: algorithm designers, researchers who want to see what the state of the art is, as measured by performance on the VOC datasets, along with the limitations and weak points of the current generation of algorithms; and, challenge designers, who want to see what we as organisers have learnt from the process and our recommendations for the organisation of future challenges. To analyse the performance of submitted algorithms on the VOC datasets we\u00a0\u2026",
+                "summary": "In this paper we provide a review of the challenge from 2008\u20132012. There are five challenges: classification, detection, segmentation, action classification, and person layout. We analysed the performance of submitted algorithms on the voc datasets. We then analysed the performance of submitted algorithms on the. Voc datasets. To analyse the performance of submitted. Algorithms on the voc datasets we... Analysed the performance of submitted. Algorithms"
+            },
+            {
+                "name": "The PASCAL visual object classes challenge 2007 (VOC2007) results",
+                "url": "https://www.researchgate.net/profile/Luc_Van_Gool/publication/277292831_The_2005_pascal_visual_object_classes_challenge/links/57224cf108aef9c00b7c7efb.pdf",
+                "description": "This report presents the results of the 2006 PASCAL Visual Object Classes Challenge (VOC2006). Details of the challenge, data, and evaluation are presented. Participants in the challenge submitted descriptions of their methods, and these have been included verbatim. This document should be considered preliminary, and subject to change.",
+                "summary": "2006 pascal visual object classes challenge (voc2006) details of the challenge, data, and evaluation are presented. Participants in the challenge submitted descriptions of their methods, and these have been included verbatim. This document should be considered preliminary, and subject to change. The results of the 2006 pascal visual object classes challenge (voc2006) are presented."
+            }
+        ]
+    },
+    {
+        "id": "tvUH3WMAAAAJ",
+        "url_picture": "https://scholar.google.com/citations?view_op=medium_photo&user=tvUH3WMAAAAJ",
+        "name": "Sepp Hochreiter",
+        "affiliation": "Institute for Machine Learning, Johannes Kepler University Linz",
+        "email": null,
+        "interests": [
+            "Machine Learning",
+            "Deep Learning",
+            "Artificial Intelligence",
+            "Neural Networks",
+            "Bioinformatics"
+        ],
+        "citedby": 50304,
+        "homepage": "https://www.jku.at/en/institute-for-machine-learning/",
+        "publications": [
+            {
+                "name": "Fast and accurate deep network learning by exponential linear units (elus)",
+                "url": "https://arxiv.org/abs/1511.07289",
+                "description": "We introduce the\" exponential linear unit\"(ELU) which speeds up learning in deep neural networks and leads to higher classification accuracies. Like rectified linear units (ReLUs), leaky ReLUs (LReLUs) and parametrized ReLUs (PReLUs), ELUs alleviate the vanishing gradient problem via the identity for positive values. However, ELUs have improved learning characteristics compared to the units with other activation functions. In contrast to ReLUs, ELUs have negative values which allows them to push mean unit activations closer to zero like batch normalization but with lower computational complexity. Mean shifts toward zero speed up learning by bringing the normal gradient closer to the unit natural gradient because of a reduced bias shift effect. While LReLUs and PReLUs have negative values, too, they do not ensure a noise-robust deactivation state. ELUs saturate to a negative value with smaller inputs and thereby decrease the forward propagated variation and information. Therefore, ELUs code the degree of presence of particular phenomena in the input, while they do not quantitatively model the degree of their absence. In experiments, ELUs lead not only to faster learning, but also to significantly better generalization performance than ReLUs and LReLUs on networks with more than 5 layers. On CIFAR-100 ELUs networks significantly outperform ReLU networks with batch normalization while batch normalization does not improve ELU networks. ELU networks are among the top 10 reported CIFAR-10 results and yield the best published result on CIFAR-100, without resorting to multi-view evaluation or model averaging. On ImageNet\u00a0\u2026",
+                "summary": "Exponential linear units (elus) speed up learning in deep neural networks. Elus alleviate the vanishing gradient problem via the identity for positive values. In experiments, elus lead not only to faster learning, but also significantly better generalization performance than relus and lrelus on networks with more than 5 layers."
+            },
+            {
+                "name": "Gans trained by a two time-scale update rule converge to a local nash equilibrium",
+                "url": "http://papers.nips.cc/paper/7240-gans-trained-by-a-two-t",
+                "description": "Generative Adversarial Networks (GANs) excel at creating realistic images with complex models for which maximum likelihood is infeasible. However, the convergence of GAN training has still not been proved. We propose a two time-scale update rule (TTUR) for training GANs with stochastic gradient descent on arbitrary GAN loss functions. TTUR has an individual learning rate for both the discriminator and the generator. Using the theory of stochastic approximation, we prove that the TTUR converges under mild assumptions to a stationary local Nash equilibrium. The convergence carries over to the popular Adam optimization, for which we prove that it follows the dynamics of a heavy ball with friction and thus prefers flat minima in the objective landscape. For the evaluation of the performance of GANs at image generation, we introduce theFr\u00e9chet Inception Distance''(FID) which captures the similarity of generated images to real ones better than the Inception Score. In experiments, TTUR improves learning for DCGANs and Improved Wasserstein GANs (WGAN-GP) outperforming conventional GAN training on CelebA, CIFAR-10, SVHN, LSUN Bedrooms, and the One Billion Word Benchmark.",
+                "summary": "We propose a two time-scale update rule for training gans with stochastic gradient descent on arbitrary gan loss functions. We prove that the ttur converges under mild assumptions to a stationary local nash equilibrium. In experiments, ttur improves learning for dcgans and improved wasserstein gans."
+            },
+            {
+                "name": "Gradient flow in recurrent nets: the difficulty of learning long-term dependencies",
+                "url": "https://ml.jku.at/publications/older/ch7.pdf",
+                "description": "Recurrent networks (crossreference Chapter 12) can, in principle, use their feedback connections to store representations of recent input events in the form of activations. The most widely used algorithms for learning what to put in short-term memory, however, take too much time to be feasible or do not work well at all, especially when minimal time lags between inputs and corresponding teacher signals are long. Although theoretically fascinating, they do not provide clear practical advantages over, say, backprop in feedforward networks with limited time windows (see crossreference Chapters 11 and 12). With conventional \u201calgorithms based on the computation of the complete gradient\u201d, such as \u201cBack-Propagation Through Time\u201d(BPTT, eg,[23, 28, 27]) or \u201cReal-Time Recurrent Learning\u201d(RTRL, eg,[22]) error signals \u201cflowing backwards in time\u201d tend to either (1) blow up or (2) vanish: the temporal evolution of the backpropagated error exponentially depends on the size of the weights [12, 6]. Case (1) may lead to oscillating weights, while in case (2) learning to bridge long time lags takes a prohibitive amount of time, or does not work at all.In what follows, we give a theoretical analysis of this problem by studying the asymptotic behavior of error gradients as a function of time lags. In Section 2, we consider the case of standard RNNs and derive the main result using the approach first proposed in [12]. In Section 3, we consider the more general case of adaptive dynamical systems, which include, besides standard RNNs, other recurrent architectures based on different connectivities and choices of the activation function (eg, RBF or second order\u00a0\u2026",
+                "summary": "The most widely used algorithms for learning what to put in short-term memory, however, take too much time to be feasible or do not work well at all. Conventional \"algorithms based on the computation of the complete gradient\" tend to either (1) blow up or (2) vanish: the temporal evolution of the backpropagated error exponentially depends on the size of the weights."
+            },
+            {
+                "name": "The vanishing gradient problem during learning recurrent neural nets and problem solutions",
+                "url": "https://www.worldscientific.com/doi/abs/10.1142/s0218488598000094",
+                "description": "Recurrent nets are in principle capable to store past inputs to produce  the currently desired output. Because of this property recurrent nets  are used in time series prediction and process control. Practical  applications involve temporal dependencies spanning many time steps,  e.g. between relevant inputs and desired outputs. In this case, however,  gradient based learning methods take too much time. The extremely  increased learning time arises because the error vanishes as it gets  propagated back. In this article the de-caying error flow is theoretically  analyzed. Then methods trying to overcome vanishing gradients are briefly  discussed. Finally, experiments comparing conventional algorithms and  alternative methods are presented. With advanced methods long time lag  problems can be solved in reasonable time.",
+                "summary": "Recurrent nets are in principle capable to store past inputs to produce the currently desired output. Because of this property recurrent nets are used in time series prediction and process control. Gradient based learning methods take too much time because the error vanishes as it gets propagated back. With advanced methods long time lag problems can be solved in reasonable time."
+            },
+            {
+                "name": "Self-normalizing neural networks",
+                "url": "http://papers.nips.cc/paper/6698-self-normalizing-neural-networks",
+                "description": "Deep Learning has revolutionized vision via convolutional neural networks (CNNs) and natural language processing via recurrent neural networks (RNNs). However, success stories of Deep Learning with standard feed-forward neural networks (FNNs) are rare. FNNs that perform well are typically shallow and, therefore cannot exploit many levels of abstract representations. We introduce self-normalizing neural networks (SNNs) to enable high-level abstract representations. While batch normalization requires explicit normalization, neuron activations of SNNs automatically converge towards zero mean and unit variance. The activation function of SNNs are\" scaled exponential linear units\"(SELUs), which induce self-normalizing properties. Using the Banach fixed-point theorem, we prove that activations close to zero mean and unit variance that are propagated through many network layers will converge towards zero mean and unit variance--even under the presence of noise and perturbations. This convergence property of SNNs allows to (1) train deep networks with many layers,(2) employ strong regularization, and (3) to make learning highly robust. Furthermore, for activations not close to unit variance, we prove an upper and lower bound on the variance, thus, vanishing and exploding gradients are impossible. We compared SNNs on (a) 121 tasks from the UCI machine learning repository, on (b) drug discovery benchmarks, and on (c) astronomy tasks with standard FNNs and other machine learning methods such as random forests and support vector machines. For FNNs we considered (i) ReLU networks without normalization,(ii) batch\u00a0\u2026",
+                "summary": "We introduce self-normalizing neural networks (snns) to enable abstract representations. Neuron activations of snns automatically converge towards zero mean and unit variance. This convergence property of snns allows to train deep networks with many layers. We compared snns on 121 tasks from the uci machine learning repository."
+            }
+        ]
+    }
+]
