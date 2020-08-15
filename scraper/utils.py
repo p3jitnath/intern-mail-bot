@@ -65,8 +65,6 @@ def extract_top_publications(author_id, text_summarizer):
 
 def get_details(person, text_summarizer=None):
     person['homepage'] = extract_home_page(person['id'])
-    publication = extract_top_publications(person['id'], text_summarizer)
-    person['publications'] = []
-    person['publications'].append(publication)
+    person['publications'] = extract_top_publications(person['id'], text_summarizer)
     person['email'] = retrieve_email(person['name'], person['email'])
     return person
