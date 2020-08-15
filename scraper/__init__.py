@@ -1,1 +1,2 @@
 from .mailing_list import create_mailing_list
+from .professor_details import extract_professor_details

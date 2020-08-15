@@ -138,6 +138,8 @@ dmypy.json
 cython_debug/
 
 # Custom
-config/
 records/
 scholarly/
+
+config/*
+!config/template/
